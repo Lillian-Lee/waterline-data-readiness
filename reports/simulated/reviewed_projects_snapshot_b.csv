@@ -1,0 +1,13 @@
+record_class,snapshot_id,snapshot_date,source_region,source_system,source_project_id,project_name,scope_version,budget_period,estimate_basis,amount_value,amount_unit,currency,owner_role,source_record_ref,source_amount_unit,derived_review_case_id,derivation_note
+SIMULATED,S2,2025-10-31,Council A,Council A capital programme extract (synthetic),CP-01,Reservoir renewal,SCOPE-A1,FY2026/27,Approved estimate,1100000,NZD,NZD,Programme manager,SYN-S2-A-CP-01,,,
+SIMULATED,S2,2025-10-31,Council A,Council A capital programme extract (synthetic),CP-02,Water main renewals,SCOPE-A2,FY2026/27,Approved estimate,2550,NZD000,NZD,Programme manager,SYN-S2-A-CP-02,,,
+SIMULATED,S2,2025-10-31,Council A,Council A capital programme extract (synthetic),CP-03,Treatment upgrade,SCOPE-A3,FY2026/27,Current forecast,690000,NZD,NZD,Programme manager,SYN-S2-A-CP-03,,,
+SIMULATED,S2,2025-10-31,Council B,Council B capital programme extract (synthetic),CP-01,Pump station renewal,SCOPE-B1,FY2027/28,Approved estimate,520000,NZD,NZD,Programme manager,SYN-S2-B-CP-01,,,
+SIMULATED,S2,2025-10-31,Council B,Council B capital programme extract (synthetic),CP-02,Storage upgrade,SCOPE-B2-REV1,FY2026/27,Approved estimate,740000,NZD,NZD,Programme manager,SYN-S2-B-CP-02,,,
+SIMULATED,S2,2025-10-31,Council B,Council B capital programme extract (synthetic),CP-03,Water main renewal,SCOPE-B3,FY2026/27,Approved estimate,510000,NZD,NZD,Programme manager,SYN-S2-B-CP-03,,,
+SIMULATED,S2,2025-10-31,Council C,Council C capital programme extract (synthetic),CP-01,Treatment plant works,SCOPE-C1,FY2026/27,Approved estimate,,NZD,NZD,Programme manager,SYN-S2-C-CP-01,,,
+SIMULATED,S2,2025-10-31,Council C,Council C capital programme extract (synthetic),CP-02,Pipe renewal package,SCOPE-C2,FY2026/27,Approved estimate,3510,NZD000,NZD,Programme manager,SYN-S2-C-CP-02,,,
+SIMULATED,S2,2025-10-31,Council C,Council C capital programme extract (synthetic),CP-03-RECODED,Network resilience works,SCOPE-C3,FY2026/27,Approved estimate,820000,NZD,NZD,Programme manager,SYN-S2-C-CP-03,,,
+SIMULATED,S2,2025-10-31,Council D,Council D capital programme extract (synthetic),CP-01,Water supply upgrade,SCOPE-D1,FY2026/27,Approved estimate,2100000,NZD,NZD,Programme manager,SYN-S2-D-CP-01,,,
+SIMULATED,S2,2025-10-31,Council D,Council D capital programme extract (synthetic),CP-02,Renewal programme,SCOPE-D2,FY2026/27,Approved estimate,875,NZD000,NZD,Programme manager,SYN-S2-D-CP-02,UNCONFIRMED,SIM-R01,Simulated owner confirmation; raw snapshot remains unchanged.
+SIMULATED,S2,2025-10-31,Council D,Council D capital programme extract (synthetic),CP-03,Treatment asset works,SCOPE-D3,FY2026/27,Approved estimate,530000,NZD,NZD,,SYN-S2-D-CP-03,,,

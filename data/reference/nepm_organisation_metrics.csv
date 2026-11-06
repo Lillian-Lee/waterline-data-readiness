@@ -1,0 +1,17 @@
+account_id,organisation,reporting_period,metric_code,metric_label,value,unit,methodology,data_confidence,reason_not_available,source_sheet,source_row,source_value_cell,source_reason_cell,source_confidence_cell,extraction_status
+ACC-00001075,Carterton District Council,2024-2025,D-R9.1,Pipes with condition grading,73,percent,,4 - Reliable,,DW Organisations,5,AW5,AX5,AY5,verified_from_workbook
+ACC-00001075,Carterton District Council,2024-2025,D-R9.2,Pipe condition grading methodology,Desktop assessment,category,,4 - Reliable,,DW Organisations,5,AZ5,BA5,BB5,verified_from_workbook
+ACC-00001075,Carterton District Council,2024-2025,D-R10,Pipes in poor or very poor condition,21,percent,,4 - Reliable,,DW Organisations,5,BC5,BD5,BF5,verified_from_workbook
+ACC-00001075,Carterton District Council,2024-2025,D-R12,Average age of water pipes,32,years,,4 - Reliable,,DW Organisations,5,BG5,BH5,BJ5,verified_from_workbook
+ACC-00001026,Masterton District Council,2024-2025,D-R9.1,Pipes with condition grading,84.4,percent,,4 - Reliable,,DW Organisations,31,AW31,AX31,AY31,verified_from_workbook
+ACC-00001026,Masterton District Council,2024-2025,D-R9.2,Pipe condition grading methodology,Desktop assessment,category,,4 - Reliable,,DW Organisations,31,AZ31,BA31,BB31,verified_from_workbook
+ACC-00001026,Masterton District Council,2024-2025,D-R10,Pipes in poor or very poor condition,23.52,percent,,4 - Reliable,,DW Organisations,31,BC31,BD31,BF31,verified_from_workbook
+ACC-00001026,Masterton District Council,2024-2025,D-R12,Average age of water pipes,32,years,,4 - Reliable,,DW Organisations,31,BG31,BH31,BJ31,verified_from_workbook
+ACC-00001109,South Wairarapa District Council,2024-2025,D-R9.1,Pipes with condition grading,98.99,percent,,3 - Less Reliable,,DW Organisations,49,AW49,AX49,AY49,verified_from_workbook
+ACC-00001109,South Wairarapa District Council,2024-2025,D-R9.2,Pipe condition grading methodology,Desktop assessment,category,,3 - Less Reliable,,DW Organisations,49,AZ49,BA49,BB49,verified_from_workbook
+ACC-00001109,South Wairarapa District Council,2024-2025,D-R10,Pipes in poor or very poor condition,0.234,percent,,3 - Less Reliable,,DW Organisations,49,BC49,BD49,BF49,verified_from_workbook
+ACC-00001109,South Wairarapa District Council,2024-2025,D-R12,Average age of water pipes,39.29,years,,3 - Less Reliable,,DW Organisations,49,BG49,BH49,BJ49,verified_from_workbook
+ACC-00008574,Tararua District Council,2024-2025,D-R9.1,Pipes with condition grading,90,percent,,,,DW Organisations,52,AW52,AX52,AY52,verified_from_workbook
+ACC-00008574,Tararua District Council,2024-2025,D-R9.2,Pipe condition grading methodology,Desktop assessment,category,,,,DW Organisations,52,AZ52,BA52,BB52,verified_from_workbook
+ACC-00008574,Tararua District Council,2024-2025,D-R10,Pipes in poor or very poor condition,23,percent,,,,DW Organisations,52,BC52,BD52,BF52,verified_from_workbook
+ACC-00008574,Tararua District Council,2024-2025,D-R12,Average age of water pipes,50,years,,,,DW Organisations,52,BG52,BH52,BJ52,verified_from_workbook

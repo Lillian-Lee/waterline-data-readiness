@@ -1,0 +1,51 @@
+{
+  "asset_extract": {
+    "source_file": "data/raw/swdc_potable_water_pipes_sample.csv",
+    "record_count": 25,
+    "unique_asset_ids": 25,
+    "duplicate_asset_ids": 0,
+    "status_counts": {
+      "In Use": 25
+    },
+    "missing_criticality": 25,
+    "missing_condition_grade": 0,
+    "missing_install_date": 0,
+    "total_pipe_length_m_in_extract": 2829.4,
+    "diameter_range_mm": [
+      25.0,
+      300.0
+    ],
+    "material_counts": {
+      "PE100": 1,
+      "STCL": 8,
+      "AC": 9,
+      "PVC": 3,
+      "UPVC": 2,
+      "ST": 1,
+      "PE80": 1
+    },
+    "condition_grade_counts": {
+      "1": 2,
+      "3": 4,
+      "4": 5,
+      "2": 11,
+      "5": 3
+    },
+    "installation_date_range_utc": [
+      "1956-01-01",
+      "2023-06-01"
+    ],
+    "representativeness": "Deterministic first 25 records by asset_id; not a representative sample."
+  },
+  "nepm_extract": {
+    "reporting_period": "2024-2025",
+    "verified_organisations": [
+      "Carterton District Council",
+      "Masterton District Council",
+      "South Wairarapa District Council",
+      "Tararua District Council"
+    ],
+    "held_for_manual_verification": [],
+    "comparison_rule": "Organisation-level NEPM metrics are not joined to individual asset records."
+  }
+}

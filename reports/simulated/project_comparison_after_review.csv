@@ -1,0 +1,14 @@
+record_class,source_region,source_project_id,s1_source_ref,current_source_ref,s1_amount,s1_unit,current_amount,current_unit,s1_amount_nzd,current_amount_nzd,difference_nzd,change_percent,comparison_status,hold_reasons,owner_role
+SIMULATED,Council A,CP-01,SYN-S1-A-CP-01,SYN-S2-A-CP-01,1000000,NZD,1100000,NZD,1000000.0,1100000.0,100000.0,10.0,Comparable estimates,,Programme manager
+SIMULATED,Council A,CP-02,SYN-S1-A-CP-02,SYN-S2-A-CP-02,2400,NZD000,2550,NZD000,2400000.0,2550000.0,150000.0,6.25,Comparable estimates,,Programme manager
+SIMULATED,Council A,CP-03,SYN-S1-A-CP-03,SYN-S2-A-CP-03,650000,NZD,690000,NZD,,,,,Held: confirm comparability,estimate basis differs,Programme manager
+SIMULATED,Council B,CP-01,SYN-S1-B-CP-01,SYN-S2-B-CP-01,500000,NZD,520000,NZD,,,,,Held: confirm comparability,budget period differs,Programme manager
+SIMULATED,Council B,CP-02,SYN-S1-B-CP-02,SYN-S2-B-CP-02,700000,NZD,740000,NZD,,,,,Held: confirm comparability,scope version differs,Programme manager
+SIMULATED,Council B,CP-03,SYN-S1-B-CP-03,SYN-S2-B-CP-03,450000,NZD,510000,NZD,450000.0,510000.0,60000.0,13.33,Comparable estimates,,Programme manager
+SIMULATED,Council C,CP-01,SYN-S1-C-CP-01,SYN-S2-C-CP-01,1200000,NZD,,NZD,,,,,Held: confirm comparability,current amount is blank,Programme manager
+SIMULATED,Council C,CP-02,SYN-S1-C-CP-02,SYN-S2-C-CP-02,3400,NZD000,3510,NZD000,3400000.0,3510000.0,110000.0,3.24,Comparable estimates,,Programme manager
+SIMULATED,Council C,CP-03,SYN-S1-C-CP-03,,800000,NZD,,,,,,,Held: no matching composite key,The source-region and source-project key appears in only one snapshot.,
+SIMULATED,Council C,CP-03-RECODED,,SYN-S2-C-CP-03,,,820000,NZD,,,,,Held: no matching composite key,The source-region and source-project key appears in only one snapshot.,Programme manager
+SIMULATED,Council D,CP-01,SYN-S1-D-CP-01,SYN-S2-D-CP-01,2000000,NZD,2100000,NZD,2000000.0,2100000.0,100000.0,5.0,Comparable estimates,,Programme manager
+SIMULATED,Council D,CP-02,SYN-S1-D-CP-02,SYN-S2-D-CP-02,850000,NZD,875,NZD000,850000.0,875000.0,25000.0,2.94,Comparable estimates,,Programme manager
+SIMULATED,Council D,CP-03,SYN-S1-D-CP-03,SYN-S2-D-CP-03,510000,NZD,530000,NZD,510000.0,530000.0,20000.0,3.92,Comparable estimates,,

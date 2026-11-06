@@ -1,0 +1,6 @@
+record_class,case_id,source_region,record_key,changed_field,s1_value,s2_value,s1_source_ref,s2_source_ref,review_owner_role,review_status
+SIMULATED,SIM-A-002,Council D,Council D|W-006 -> W-006-MIGRATED,source_asset_id,W-006,W-006-MIGRATED,SYN-S1-4-A006,SYN-S2-4-A006,Data migration lead,Open in simulation
+SIMULATED,SIM-A-003,Council A,Council A|W-002,installed_year,1974,1998,SYN-S1-1-A002,SYN-S2-1-A002,Asset information owner,Open in simulation
+SIMULATED,SIM-A-004,Council B,Council B|W-004,criticality,Medium,,SYN-S1-2-A004,SYN-S2-2-A004,Asset information owner,Open in simulation
+SIMULATED,SIM-A-005,Council C,Council C|W-003,condition_grade,5,3,SYN-S1-3-A003,SYN-S2-3-A003,Asset information owner,Open in simulation
+SIMULATED,SIM-A-006,Council C,Council C|W-005,operational_status,In service,Decommissioned,SYN-S1-3-A005,SYN-S2-3-A005,Asset information owner,Open in simulation

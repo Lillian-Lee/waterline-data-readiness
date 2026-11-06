@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Waterline | Public water data review</title>
+  <style>
+    :root { color-scheme: light; --ink:#162b3c; --muted:#526777; --line:#d6e0e6; --blue:#155c78; --pale:#eef5f7; --amber:#815b17; }
+    * { box-sizing:border-box; } body { margin:0; background:#f5f7f8; color:var(--ink); font:16px/1.55 "Segoe UI",Arial,sans-serif; }
+    main { max-width:1080px; margin:40px auto; padding:0 24px 56px; }
+    header { padding:34px 38px; border-radius:14px; color:white; background:linear-gradient(120deg,#12384b,#18768a); }
+    header p { max-width:740px; color:#e0eef1; margin-bottom:0; } .eyebrow { text-transform:uppercase; letter-spacing:.12em; font-size:.76rem; font-weight:700; }
+    h1 { font-size:2.2rem; line-height:1.15; margin:.55rem 0; } h2 { font-size:1.25rem; margin:0 0 14px; }
+    section { margin-top:24px; background:white; border:1px solid var(--line); border-radius:12px; padding:24px; }
+    .cards { display:grid; grid-template-columns:repeat(4,1fr); gap:12px; margin-top:20px; }
+    .card { border:1px solid var(--line); border-radius:10px; padding:16px; background:white; } .value { font-size:1.7rem; font-weight:700; color:var(--blue); } .label { color:var(--muted); font-size:.9rem; }
+    table { width:100%; border-collapse:collapse; font-size:.92rem; } th,td { text-align:left; padding:10px 9px; border-bottom:1px solid var(--line); vertical-align:top; } th { color:#314c5b; background:var(--pale); }
+    .note { border-left:4px solid #d1a24b; padding:12px 15px; background:#fff9eb; color:#594719; } .small { font-size:.9rem; color:var(--muted); }
+    footer { margin-top:22px; color:var(--muted); font-size:.86rem; }
+    @media(max-width:760px) { .cards { grid-template-columns:repeat(2,1fr); } section { overflow-x:auto; } }
+    @media(max-width:430px) { .cards { grid-template-columns:1fr; } header { padding:26px 22px; } h1 { font-size:1.8rem; } }
+  </style>
+</head>
+<body>
+<main>
+  <header>
+    <div class="eyebrow">Waterline · Public data review</div>
+    <h1>Can these water figures be reported together?</h1>
+    <p>A water services analyst may receive pipe records and organisation-wide measures from different sources. This review checks what each source says and whether the figures can be compared.</p>
+  </header>
+  <div class="cards" aria-label="Extract summary">
+    <div class="card"><div class="value">25</div><div class="label">Pipe records in the sample</div></div>
+    <div class="card"><div class="value">25</div><div class="label">Different pipe IDs in the sample</div></div>
+    <div class="card"><div class="value">25/25</div><div class="label">Rows with no criticality value</div></div>
+    <div class="card"><div class="value">4 × 4</div><div class="label">Four measures checked for four organisations</div></div>
+  </div>
+  <section><h2>What this means for reporting</h2><p>This sample can describe the 25 pipe records, but it cannot tell us about every pipe in the network. The source's criticality field is blank in all 25 rows. Tararua's four selected workbook values are present, but the workbook does not give confidence ratings for them.</p><p>One file describes individual pipes. The other reports measures for each water service organisation. There is no verified link showing which pipes are counted in each organisation's figures, so report them separately.</p><p>For a water services team, these checks help prevent a small sample being mistaken for a whole-network result. Ask the data owners to clarify the blank fields before relying on them. This review does not assess pipe safety, engineering needs or investment priority.</p><h3>Why this is relevant to Waitī Waters</h3><p>In its <a href="https://www.waitiwaters.co.nz/site_files/55862/upload_files/PublicBoardpack15October2026.2.pdf?dl=1">public October 2026 update</a>, Waitī Waters said it had requested council data files to assess data quality and the work needed to clean and move information into new systems. It also described developing measures for internal performance and external reporting. This review uses public data, but demonstrates a related task: checking definitions and gaps before reporting figures.</p><p><a href="simulated/index.html">See how the separate fictional example handles changes between two versions of a dataset</a>.</p></section>
+  <section>
+    <h2>Water service measures reported for 2024/25</h2>
+    <p class="small">These figures come from Taumata Arowai's 2024/25 workbook. They describe each organisation, not the 25 sample pipes. The rating is the workbook's own view of how reliable each figure is; “Not given” means no rating was supplied.</p>
+    <table><thead><tr><th>Organisation</th><th>Measure</th><th>Value reported</th><th>Data confidence rating</th></tr></thead><tbody><tr><td>Carterton District Council</td><td>Pipes with a condition grade</td><td>73 percent</td><td>4 - Reliable</td></tr>
+<tr><td>Carterton District Council</td><td>Method used to grade pipe condition</td><td>Desktop assessment category</td><td>4 - Reliable</td></tr>
+<tr><td>Carterton District Council</td><td>Pipes rated poor or very poor</td><td>21 percent</td><td>4 - Reliable</td></tr>
+<tr><td>Carterton District Council</td><td>Average age of water pipes</td><td>32 years</td><td>4 - Reliable</td></tr>
+<tr><td>Masterton District Council</td><td>Pipes with a condition grade</td><td>84.4 percent</td><td>4 - Reliable</td></tr>
+<tr><td>Masterton District Council</td><td>Method used to grade pipe condition</td><td>Desktop assessment category</td><td>4 - Reliable</td></tr>
+<tr><td>Masterton District Council</td><td>Pipes rated poor or very poor</td><td>23.52 percent</td><td>4 - Reliable</td></tr>
+<tr><td>Masterton District Council</td><td>Average age of water pipes</td><td>32 years</td><td>4 - Reliable</td></tr>
+<tr><td>South Wairarapa District Council</td><td>Pipes with a condition grade</td><td>98.99 percent</td><td>3 - Less Reliable</td></tr>
+<tr><td>South Wairarapa District Council</td><td>Method used to grade pipe condition</td><td>Desktop assessment category</td><td>3 - Less Reliable</td></tr>
+<tr><td>South Wairarapa District Council</td><td>Pipes rated poor or very poor</td><td>0.234 percent</td><td>3 - Less Reliable</td></tr>
+<tr><td>South Wairarapa District Council</td><td>Average age of water pipes</td><td>39.29 years</td><td>3 - Less Reliable</td></tr>
+<tr><td>Tararua District Council</td><td>Pipes with a condition grade</td><td>90 percent</td><td>Not given</td></tr>
+<tr><td>Tararua District Council</td><td>Method used to grade pipe condition</td><td>Desktop assessment category</td><td>Not given</td></tr>
+<tr><td>Tararua District Council</td><td>Pipes rated poor or very poor</td><td>23 percent</td><td>Not given</td></tr>
+<tr><td>Tararua District Council</td><td>Average age of water pipes</td><td>50 years</td><td>Not given</td></tr></tbody></table>
+  </section>
+  <section>
+    <h2>What we found in the pipe sample</h2>
+    <ul>
+      <li>These are the first 25 in-use records sorted by ID, not a random sample. The findings apply only to these records.</li>
+      <li>All 25 rows include a condition grade and installation date.</li>
+      <li>The source's criticality field is blank in all 25 rows. The data owner should explain what the field means and where its values are kept.</li>
+      <li>The sample contains 2,829.40 metres of pipe. This is not the total length of the network.</li>
+      <li>The source does not explain its material codes or condition-grade scale, so this report leaves them as supplied.</li>
+    </ul>
+    <div class="note"><strong>Missing rating in the workbook:</strong> Tararua has values for all four selected measures, but no data confidence ratings are shown. No rating was supplied, and none has been guessed.</div>
+  </section>
+  <section>
+    <h2>Questions for the data owners</h2>
+    <ul>
+      <li>What do the material codes and condition grades mean?</li>
+      <li>Where is the criticality information held, and how is it defined?</li>
+      <li>How were the organisation-wide measures calculated, and what do the confidence ratings mean?</li>
+    </ul>
+    <p class="small">A separate fictional review note shows how an analyst could record a question about the missing criticality values. It does not add information to the public data.</p>
+    <p class="small">The pipe source is maintained by Wellington Water Ltd. It warns that accuracy may vary and the data is not for detailed engineering design. This review does not assess regulatory compliance or make investment recommendations.</p>
+  </section>
+  <footer><a href="../README.md">Project overview, sources and method</a></footer>
+</main>
+</body>
+</html>

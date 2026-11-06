@@ -1,0 +1,26 @@
+{
+  "record_class": "SIMULATED",
+  "snapshot_s1": "2025-06-30",
+  "snapshot_s2": "2025-10-31",
+  "asset_rows": {
+    "s1": 24,
+    "s2": 24
+  },
+  "asset_composite_key_matches": 23,
+  "asset_keys_only_in_s1": 1,
+  "asset_keys_only_in_s2": 1,
+  "project_rows": {
+    "s1": 12,
+    "s2": 12
+  },
+  "projects_comparable_before_review": 6,
+  "projects_comparable_after_simulated_review": 7,
+  "confirmed_case_change_nzd": 25000.0,
+  "confirmed_case_change_percent": 2.94,
+  "issue_count": 14,
+  "open_issue_count": 13,
+  "resolved_in_simulation_issue_count": 1,
+  "simulated_confirmations_applied_to_derived_copy": 1,
+  "public_data_changed": false,
+  "project_asset_link_created": false
+}

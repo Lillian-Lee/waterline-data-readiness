@@ -1,0 +1,2 @@
+record_class,case_id,source_region,record_key,source_snapshot,source_record_ref,field_name,observed_value,simulated_confirmed_value,review_owner_role,simulated_response,review_status,change_applied_to_derived_copy,public_source_changed
+SIMULATED,SIM-R01,Council D,Council D|CP-02,S2,SYN-S2-D-CP-02,amount_unit,UNCONFIRMED,NZD000,Project finance owner,"Simulated response: for this fictional case, the current estimate is stated in thousands of New Zealand dollars. The estimate basis, scope version and budget period match snapshot S1.",SIMULATED_CONFIRMED,true,false

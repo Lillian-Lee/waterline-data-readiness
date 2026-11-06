@@ -1,0 +1,11 @@
+# Local notes are kept out of the public project
+/AGENTS.md
+/archive/
+
+# Python cache files
+__pycache__/
+*.py[cod]
+
+# Local editor settings
+.vscode/
+.idea/

@@ -1,0 +1,2 @@
+record_class,case_id,source_region,record_key,field_name,source_value,derived_value,review_owner_role,review_status,source_snapshot,source_record_ref,public_source_changed
+SIMULATED,SIM-R01,Council D,Council D|CP-02,amount_unit,UNCONFIRMED,NZD000,Project finance owner,Applied to derived copy only,S2,SYN-S2-D-CP-02,false
